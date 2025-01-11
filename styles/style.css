@@ -325,3 +325,26 @@ main section{
 
 
 }
+/* footer */
+
+footer{
+    background-color: white;
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+footer hr{
+    width: 80%;
+    color: rgba(14, 14, 14, 0.1);
+}
+
+.soical-icon img{
+    margin-top: 32px;
+    margin-right: 23px;
+    
+}
