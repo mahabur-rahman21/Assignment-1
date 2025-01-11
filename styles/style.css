@@ -1,0 +1,104 @@
+/* root class */
+
+ body{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f5f5f5;
+ }
+  
+/* shared class */
+.primary-color{
+    color: #006A50;
+}
+.secondary-color{
+    color: #C6E4D6;
+}
+.primary-bg{
+    background-color: #006A50;
+}
+.secondary-bg{
+    background-color: #C6E4D6;
+}
+.dark-1{
+    color: #0E0E0E;
+}
+.dark-2{
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.dark-3{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.dark-3{
+    color: #0E0E0E;
+    opacity: 50%;
+}
+.btn-primary{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-secondary{
+    padding: 15px 30px;
+    border: 2px solid #006A50 ;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #006A50;
+}
+
+/* header */
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.header-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.btn-sign-in{
+    padding: 15px 30px;
+    border: 2px solid #006A50 ;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #006A50;
+}
+
+/* main section */
+
+main{
+    padding: 0 100px;
+}
+
+/* hero-section */
+
+.hero-section{
+    display: flex;
+    border-radius: 24px;
+    gap: 40px;
+    padding: 100px 60px;
+
+}
+.hero-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.hero-title{
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+
