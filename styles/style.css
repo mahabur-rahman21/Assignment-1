@@ -63,6 +63,10 @@
     color: rgba(14, 14, 14, 0.7);
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* header */
 
 header > nav{
@@ -276,4 +280,28 @@ main section{
 .news-summary{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+}
+
+/* donate */
+
+.donate-item-contner{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.donate-select-item{
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 40px;
+}
+.item-200{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.select-amount{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
 }
