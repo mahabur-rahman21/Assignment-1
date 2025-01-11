@@ -325,6 +325,43 @@ main section{
 
 
 }
+
+/* newsletter */
+
+.newsletter{
+    border-radius: 16px;
+    padding: 80px 200px;
+}
+
+.newsletter-input-contaner{
+    display: flex;
+    gap: 0;
+    text-align: center;
+}
+
+.newsletter-input-email{
+    padding: 18px 40px;
+    background-color: white;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.3);
+    border-radius: 8px 0 0 8px;
+    border: none ;
+    margin-right: 0;
+    width: 60%;
+}
+
+.newsletter-btn-primary{
+    padding: 18px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    margin-left: 0;
+}
+
+
+
 /* footer */
 
 footer{
