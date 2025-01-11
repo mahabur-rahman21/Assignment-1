@@ -387,7 +387,7 @@ td {
 .newsletter-input-contaner {
   display: flex;
   gap: 0;
-  text-align: center;
+  justify-content: center;
 }
 
 .newsletter-input-email {
